@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* .section1 .container2 { */
+/* margin: auto;
+    padding: 50px 0px; */
+
+/* } */
+body {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .form h1 {
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .form {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(170, 170, 170, 0.4);
+    opacity: 0.5;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 15px;
+    border-color: inherit;
+    margin-bottom: 25px;
+    color: gray;
+    padding: 10px;
+    /* display: block; */
+
+}
+
+#file {
+    margin-left: -125px;
+}
+
+#E-mail {
+
+    margin-right: -11px;
+}
+
+#birthday {
+    margin-left: 15px;
+    width: 249.6px;
+}
+
+button {
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    color: gray;
+}
+
+.form-upload {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.upload_button {
+    /* font-size: 20px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 7px;
+    background-color: rgb(33, 20, 55);
+    color: aliceblue;
+}
+
+.API_button {}
+
+.img_link {
+    border: 0.5px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.Birth {
+    display: inline-block;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f0f0f0; */
+    background-color: rgb(11, 13, 48);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 100px;
+    /* padding: 0; */
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(202, 202, 206);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(11, 13, 48);
+}
+
+.dropdown-menu {
+
+    margin: 0 22px;
+    padding: 15px 18px;
+    transition: background-color 200ms ease;
+    border-radius: 12px;
+    background-color: #fff;
+    align-items: center;
+    color: inherit;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px rgba(3, 3, 3, 0.137);
+    /* background: transparent; */
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* footer */
+.main {
+    /* background-color: rgb(102, 19, 84); */
+    background-color: rgb(11, 13, 48);
+    padding: 30px 0px;
+    margin-top: 50px;
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
+
+.container2 {
+    width: 53%;
+    margin: auto;
+
+}
+
+.container2 .footer {
+    display: flex;
+    /* position: fixed;
+    bottom: 0; */
+    flex-direction: column;
+}
+
+.container2 .title {
+    text-align: center;
+    color: rgb(206, 205, 203);
+}
+
+.container2 .links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container2 .link {
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid rgb(206, 205, 203);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 205, 203);
+}
+
+a:link {
+    color: rgb(206, 205, 203);
+}
+
+a:hover {
+    color: rgb(74, 63, 50);
+}
+
+#twitter {
+    margin-right: 0px;
+}
